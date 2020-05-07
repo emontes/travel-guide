@@ -21,8 +21,8 @@
     "terser": "^3.14.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "node init && react-scripts start",
+    "build": "node init && react-scripts build",
     "test": "",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
